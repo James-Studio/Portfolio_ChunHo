@@ -10,12 +10,12 @@ type ThemeProviderProps = React.PropsWithChildren<{
 }>
 
 export const ThemeContext = React.createContext<ThemeContextProps>({
-  dark: false,
+  dark: true,
   toggle: () => {},
 })
 
-export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children, defaultDark }) => {
-  const [dark, setDark] = React.useState<boolean>(!!defaultDark)
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children, defaultDark = false }) => {
+  const [dark, setDark] = React.useState<boolean>(defaultDark)
 
   React.useEffect(() => {
     const savedMode = localStorage.getItem('darkMode')
