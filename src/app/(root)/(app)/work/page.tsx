@@ -52,9 +52,8 @@ const experiences: IWorkExperience[] = [
     start: 'Jan 2025',
     end: 'Present',
     responsibilities: [
-      'Developed responsive UI with React and Tailwind CSS',
-      'Implemented CI/CD pipeline with GitHub Actions',
-      'Collaborated with designers to improve UX flows',
+      'Mentored a cohort of 40 students through the end-to-end DevOps lifecycle',
+      'Resolved 95% of their technical issues (From CI/CD pipelines and container orchestration to IaC and cloud deployments)',
     ],
   },
   {
@@ -64,9 +63,9 @@ const experiences: IWorkExperience[] = [
     start: 'May 2024',
     end: 'Aug 2024',
     responsibilities: [
-      'Built and maintained company website using Next.js',
-      'Integrated RESTful APIs and GraphQL endpoints',
-      'Wrote unit and integration tests with Jest',
+      'Tested five memory-saving techniques for one-hour continual-learning video models',
+      'Collaborated with two postdocs to compare context retention against compute cost trade-offs',
+      'Benchmarked backbone architectures and tuned tokenizers/hyperparameters to cut GPU memory by 30%',
     ],
   },
   {
@@ -76,9 +75,9 @@ const experiences: IWorkExperience[] = [
     start: 'Nov 2021',
     end: 'Jul 2022',
     responsibilities: [
-      'Built and maintained company website using Next.js',
-      'Integrated RESTful APIs and GraphQL endpoints',
-      'Wrote unit and integration tests with Jest',
+      'Boosted ball-tracking accuracy by 10% using Kalman filters and a rebuilt YOLOv7 model',
+      'Developed a point-loss analysis module classifying rally outcomes with >75% test accuracy',
+      'Integrated real-time multi-person pose estimation at 30 FPS with <5% latency',
     ],
   },
   {
@@ -88,9 +87,9 @@ const experiences: IWorkExperience[] = [
     start: 'Sep 2022',
     end: 'Jun 2023',
     responsibilities: [
-      'Built and maintained company website using Next.js',
-      'Integrated RESTful APIs and GraphQL endpoints',
-      'Wrote unit and integration tests with Jest',
+      'Developed a hotspot-map system for real-time student-flow analytics across departments',
+      'Configured data capture to refresh flow maps every 10 seconds for up-to-date insights',
+      'Created a person re-identification pipeline achieving 96% accuracy in low-noise settings',
     ],
   },
 ]

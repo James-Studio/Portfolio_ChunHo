@@ -33,6 +33,7 @@ const educationData: IEducation[] = [
     start: 'Sep 2024',
     end: 'Present',
     details: [
+      'GPA: 3.6/4.0',
       'Concentration: System Track',
     ],
   },
@@ -43,6 +44,7 @@ const educationData: IEducation[] = [
     start: 'Sep 2019',
     end: 'Jun 2023',
     details: [
+      'GPA: 3.8/4.0',
       'Concentration: Deep Learning & Computer Vision',
     ],
   },
