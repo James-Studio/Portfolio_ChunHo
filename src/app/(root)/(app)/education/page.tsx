@@ -1,15 +1,17 @@
 import React from 'react'
 import PageTitle from '../components/PageTitle'
 import { Metadata } from 'next'
+import { StaticImageData } from 'next/image';
 
 import nyu from '@/assets/nyu_purple.png'
 import ncku from '@/assets/ncku.png'
+
 
 // Interfaces for Education and Publications
 export interface IEducation {
   degree: string
   institution: string
-  iconPath: string      
+  iconPath: StaticImageData      
   start: string
   end: string
   details: string[]

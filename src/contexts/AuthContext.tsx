@@ -1,4 +1,4 @@
-import FIREBASE_ERRORS from '@/constans/firebase-errors'
+import FIREBASE_ERRORS from '@/constants/firebase-errors'
 import { auth, getProviderById } from '@/utils/firebase'
 import { User, onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth'
 import React from 'react'

@@ -1,4 +1,4 @@
-import { FIREBASE_CONFIG } from '@/constans/common'
+import { FIREBASE_CONFIG } from '@/constants/common'
 import { getApp, getApps, initializeApp } from 'firebase/app'
 import { GithubAuthProvider, GoogleAuthProvider, getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'

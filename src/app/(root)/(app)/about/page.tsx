@@ -1,5 +1,5 @@
 import jameshung from '@/assets/james.png'
-import { RESUME_URL } from '@/constans/common'
+import { RESUME_URL } from '@/constants/common'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'

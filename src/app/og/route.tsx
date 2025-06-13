@@ -1,4 +1,4 @@
-import { HOST } from '@/constans/common'
+import { HOST } from '@/constants/common'
 import { ImageResponse } from 'next/og'
 import { NextRequest } from 'next/server'
 

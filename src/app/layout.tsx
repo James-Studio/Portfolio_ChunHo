@@ -1,5 +1,5 @@
 import noise from '@/assets/noise.gif'
-import { HOST } from '@/constans/common'
+import { HOST } from '@/constants/common'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'

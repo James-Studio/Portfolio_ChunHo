@@ -1,3 +1,4 @@
+import { StaticImageData } from 'next/image';
 import nyu from '@/assets/nyu_purple.png'
 import tsmc from '@/assets/tsmc.svg'
 import unsw from '@/assets/unsw_yellow.png'
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 export interface IWorkExperience {
   title: string
   company: string
-  iconPath: string
+  iconPath: StaticImageData
   start: string
   end: string
   responsibilities: string[]
