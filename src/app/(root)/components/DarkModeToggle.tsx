@@ -8,7 +8,7 @@ const DarkModeToggle: React.FC<React.ButtonHTMLAttributes<HTMLButtonElement>> = 
   const { dark, toggle } = useTheme()
   const mounted = useMount()
 
-  const SunMoon = dark ? FiSun : FiMoon
+  const SunMoon = dark ?  FiSun : FiMoon 
 
   return (
     <button type="button" {...props} onClick={toggle}>

@@ -10,7 +10,7 @@ type ThemeProviderProps = React.PropsWithChildren<{
 }>
 
 export const ThemeContext = React.createContext<ThemeContextProps>({
-  dark: true,
+  dark: false,
   toggle: () => {},
 })
 
