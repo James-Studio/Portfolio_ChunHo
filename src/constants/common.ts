@@ -24,7 +24,7 @@ export const SOCIALS = {
   IN: 'https://www.linkedin.com/in/chun-ho-hung-025400184/',
 }
 
-export const RESUME_URL = 'https://drive.google.com/file/d/15bXLwBvMND_CbsXm7wP_s1fpr7COxjT2/view?usp=sharing'
+export const RESUME_URL = 'https://drive.google.com/file/d/1ltHz1sN8XfzpaJSobbomg8o2koNaJAEc/view?usp=sharing'
 
 export const FORMSPREE_KEY = 'xoqyaqqe'
 
